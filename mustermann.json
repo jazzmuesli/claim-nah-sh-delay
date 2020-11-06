@@ -1,0 +1,29 @@
+{
+	"fknummer":"123456789",
+	"gueltigkeit":"30.06.2021",
+	"email":"kerstin@mustermann.de",
+	"geschlecht":"Frau",
+	"name":"Mustermann",
+	"vorname":"Kerstin",
+	"telgesch":"+49123456789",
+	"iban":"DE12345678901234567890",
+	"swift":"NTSBDEB1XXX",
+	"strasse":"Goethe Strasse",
+	"hausnummer":"1",
+	"ort":"Elmshorn",
+	"plz":"25335",
+	"fahrkartenart":"Monatskarte Abo 2. Kl.",
+	"fahrkarte":"9.0",
+	"standardJourneys": {
+		"ElmshornDammtor": {
+			"startLocation":"Hamburg Dammtor (Messe/CCH)",
+			"endLocation":"Elmshorn Bahnhof",
+			"departureTimes":["17:26","18:26"]
+		},
+		"DammtorElmshorn": {
+			"startLocation":"Elmshorn Bahnhof",
+                        "endLocation":"Hamburg Dammtor (Messe/CCH)",
+                        "departureTimes":["06:12","07:12"]
+		}
+	}
+}
